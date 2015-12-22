@@ -16,6 +16,7 @@
 		4240BE591C292C5100E1C8CC /* ScoopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4240BE561C292C5100E1C8CC /* ScoopCell.swift */; };
 		4240BE5A1C292C5100E1C8CC /* ScoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4240BE571C292C5100E1C8CC /* ScoopView.swift */; };
 		4240BE5E1C292C6300E1C8CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4240BE5C1C292C6300E1C8CC /* Main.storyboard */; };
+		4240BE641C293F9000E1C8CC /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4240BE631C293F9000E1C8CC /* background.jpg */; };
 		42D1F00A1C2929810075CD4A /* RWPickFlavor.h in Headers */ = {isa = PBXBuildFile; fileRef = 42D1F0091C2929810075CD4A /* RWPickFlavor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F179496C9F2868769B5805F /* Pods_RWPickFlavor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690AF8A9080406D538C92866 /* Pods_RWPickFlavor.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
@@ -30,6 +31,7 @@
 		4240BE561C292C5100E1C8CC /* ScoopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoopCell.swift; sourceTree = "<group>"; };
 		4240BE571C292C5100E1C8CC /* ScoopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoopView.swift; sourceTree = "<group>"; };
 		4240BE5C1C292C6300E1C8CC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4240BE631C293F9000E1C8CC /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		42D1F0061C2929810075CD4A /* RWPickFlavor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RWPickFlavor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D1F0091C2929810075CD4A /* RWPickFlavor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWPickFlavor.h; sourceTree = "<group>"; };
 		42D1F00B1C2929810075CD4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -110,6 +112,14 @@
 			name = "Storyboards & Nibs";
 			sourceTree = "<group>";
 		};
+		4240BE621C292EDE00E1C8CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4240BE631C293F9000E1C8CC /* background.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		42D1EFFC1C2929810075CD4A = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +148,7 @@
 				4240BE541C292C3C00E1C8CC /* Models */,
 				4240BE5F1C292C6A00E1C8CC /* Views */,
 				42D1F00B1C2929810075CD4A /* Info.plist */,
+				4240BE621C292EDE00E1C8CC /* Resources */,
 			);
 			path = RWPickFlavor;
 			sourceTree = "<group>";
@@ -230,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4240BE5E1C292C6300E1C8CC /* Main.storyboard in Resources */,
+				4240BE641C293F9000E1C8CC /* background.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
