@@ -40,6 +40,13 @@
                                             <constraint firstAttribute="width" secondItem="eSO-Nb-JhM" secondAttribute="height" multiplier="1:2" id="tZo-0q-4pE"/>
                                         </constraints>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4G-W2-b71">
+                                        <rect key="frame" x="29" y="40" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="closeAction:" destination="UVM-0Q-4W9" eventType="touchUpInside" id="cyd-23-CkJ"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
