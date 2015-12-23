@@ -13,6 +13,7 @@ import MBProgressHUD
 
 public class PickFlavorViewController: BaseViewController, UICollectionViewDelegate {
   
+    
   // MARK: Instance Variables
   
   var flavors: [Flavor] = [] {
