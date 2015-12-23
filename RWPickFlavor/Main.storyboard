@@ -142,7 +142,9 @@
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
-                    <navigationItem key="navigationItem" title="Choose Your Flavor" id="s0K-Qv-2Qg"/>
+                    <navigationItem key="navigationItem" title="Choose Your Flavor" id="s0K-Qv-2Qg">
+                        <barButtonItem key="leftBarButtonItem" title="Close" id="MTH-jg-SST"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="zft-ym-2ni" id="tcB-zS-cg6"/>
                         <outlet property="contentView" destination="HDe-ty-26z" id="W6h-C5-R5I"/>
