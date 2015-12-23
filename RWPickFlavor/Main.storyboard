@@ -143,7 +143,11 @@
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" title="Choose Your Flavor" id="s0K-Qv-2Qg">
-                        <barButtonItem key="leftBarButtonItem" title="Close" id="MTH-jg-SST"/>
+                        <barButtonItem key="leftBarButtonItem" title="Close" id="MTH-jg-SST">
+                            <connections>
+                                <action selector="closeAction:" destination="UVM-0Q-4W9" id="tCS-yN-ia7"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="zft-ym-2ni" id="tcB-zS-cg6"/>

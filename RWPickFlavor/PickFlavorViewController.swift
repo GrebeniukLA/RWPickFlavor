@@ -84,6 +84,9 @@ public class PickFlavorViewController: BaseViewController, UICollectionViewDeleg
     };
   }
   
+    @IBAction func closeAction(sender: AnyObject) {
+        NSNotificationCenter.defaultCenter().postNotificationName("CloseDrimSolver", object: nil)
+    }
   private func showLoadingHUD() {
     let hud = MBProgressHUD.showHUDAddedTo(contentView, animated: true)
     hud.labelText = "Loading..."
