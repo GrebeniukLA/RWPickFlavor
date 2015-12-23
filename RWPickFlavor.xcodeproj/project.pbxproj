@@ -18,7 +18,7 @@
 		4240BE5E1C292C6300E1C8CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4240BE5C1C292C6300E1C8CC /* Main.storyboard */; };
 		4240BE641C293F9000E1C8CC /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4240BE631C293F9000E1C8CC /* background.jpg */; };
 		42D1F00A1C2929810075CD4A /* RWPickFlavor.h in Headers */ = {isa = PBXBuildFile; fileRef = 42D1F0091C2929810075CD4A /* RWPickFlavor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F179496C9F2868769B5805F /* Pods_RWPickFlavor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690AF8A9080406D538C92866 /* Pods_RWPickFlavor.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6F179496C9F2868769B5805F /* Pods_RWPickFlavor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690AF8A9080406D538C92866 /* Pods_RWPickFlavor.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */

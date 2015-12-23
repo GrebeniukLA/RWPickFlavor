@@ -8,7 +8,7 @@ s.summary = "RWPickFlavor lets a user select an ice cream flavor."
 s.requires_arc = true
 
 # 2
-s.version = "0.1.0"
+s.version = "0.3.0"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -16,11 +16,12 @@ s.author = { "GrebeniukLA" => "GrebeniukLA@mail.ru" }
 s.homepage = "https://github.com/GrebeniukLA/RWPickFlavor"
 
 
-s.source = { :git => "https://github.com/JRG-Developer/RWPickFlavor.git", :tag => "#{s.version}"}
+s.source = { :git => "https://github.com/GrebeniukLA/RWPickFlavor.git", :tag => "#{s.version}"}
 
 # 7
 s.framework = "UIKit"
 s.dependency 'Alamofire', '~> 2.0'
+s.dependency 'BetterBaseClasses', '~> 1.0'
 s.dependency 'MBProgressHUD', '~> 0.9.0'
 
 # 8
